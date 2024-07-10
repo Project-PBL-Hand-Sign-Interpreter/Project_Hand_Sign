@@ -11,8 +11,8 @@ import keyboard
 actions = np.array(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 
 # Define the number of sequences and frames to be recorded for each action
-sequences = 100
-frames = 50
+sequences = 10
+frames = 51
 
 # Set the path where the dataset will be stored
 PATH = os.path.join('data')
